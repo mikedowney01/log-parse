@@ -1,8 +1,8 @@
 
 
-log-parse searches bro's conn.log for the specified source IP address then outputs 
-each of the unique connections listing the destination IP and port number. 
-By default, log-parse displays each connection made from the address. 
+log-parse searches bro's conn.log for the specified source IP address then outputs
+each of the unique connections listing the destination IP and port number.
+By default, log-parse displays each connection made from the address.
 A target port can be specified with -p, and an output file with -o.
 
 options -f, -t, -a, and a parsing option (currently -c) are required.
